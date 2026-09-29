@@ -1,17 +1,38 @@
 # Calculadora de Interés Simple
 
-Este proyecto calcula el interés simple usando la fórmula:
+Este proyecto implementa una calculadora de **interés simple**, útil para estudiantes, desarrolladores y cualquier persona que necesite realizar cálculos financieros básicos.
 
-SI = (P * R * T) / 100
+---
 
-- **P**: Principal (capital inicial)
-- **R**: Tasa de interés
-- **T**: Tiempo en años
+## 📖 Fórmula utilizada
+El interés simple se calcula con la siguiente fórmula:
 
-## Tecnologías
-- HTML, CSS, JavaScript
 
-## Uso
-1. Clona el repositorio.
-2. Abre `index.html` en tu navegador.
-3. Ingresa los valores y obtén el resultado.
+
+\[
+SI = \frac{P \cdot R \cdot T}{100}
+\]
+
+
+
+- **P** = Principal (capital inicial)  
+- **R** = Tasa de interés anual (%)  
+- **T** = Tiempo en años  
+
+---
+
+## 🚀 Características
+- Calcula el interés simple de manera rápida.  
+- Interfaz sencilla y clara.  
+- Código abierto y fácil de modificar.  
+
+---
+
+## 🛠️ Tecnologías utilizadas
+- HTML  
+- CSS  
+- JavaScript  
+
+---
+
+## 📂 Estructura del proyecto
