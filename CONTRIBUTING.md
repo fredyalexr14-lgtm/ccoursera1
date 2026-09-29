@@ -15,3 +15,4 @@ Por favor, utiliza la sección de *Issues* para reportar cualquier error encontr
 - Se aceptan parches y soluciones propuestas.
 - Se agradecen mejoras en la documentación y nuevas ideas para el proyecto.
 
+
