@@ -21,4 +21,3 @@ A=$(echo "$P + $SI" | bc -l)
 # Mostrar resultados
 echo "Interés Simple: $SI"
 echo "Monto Total: $A"
-
