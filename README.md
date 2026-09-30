@@ -1,38 +1,15 @@
-# Calculadora de Interés Simple
+# github-final-project
 
-Este proyecto implementa una calculadora de **interés simple**, útil para estudiantes, desarrolladores y cualquier persona que necesite realizar cálculos financieros básicos.
-
----
-
-## 📖 Fórmula utilizada
-El interés simple se calcula con la siguiente fórmula:
-
-
-
-\[
-SI = \frac{P \cdot R \cdot T}{100}
-\]
-
-
-
-- **P** = Principal (capital inicial)  
-- **R** = Tasa de interés anual (%)  
-- **T** = Tiempo en años  
-
----
-
-## 🚀 Características
-- Calcula el interés simple de manera rápida.  
-- Interfaz sencilla y clara.  
-- Código abierto y fácil de modificar.  
-
----
+## 📌 Descripción
+Este proyecto es parte de la práctica final de GitHub.  
+Incluye un archivo `README.md` con los detalles básicos del repositorio y su propósito.
 
 ## 🛠️ Tecnologías utilizadas
-- HTML  
-- CSS  
-- JavaScript  
+- [Git](https://git-scm.com/) para control de versiones
+- [GitHub](https://github.com/) para alojamiento del repositorio
+- Markdown (`.md`) para documentación
 
----
-
-## 📂 Estructura del proyecto
+## 🚀 Uso
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/<tu-usuario>/github-final-project.git
