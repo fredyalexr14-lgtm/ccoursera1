@@ -1,15 +1,10 @@
 
-"""
-Paquete principal del proyecto de detección de emociones.
-Este archivo convierte la carpeta en un paquete de Python y expone
-las funciones principales para que puedan ser importadas fácilmente.
+# __init__.py
+# Este archivo convierte la carpeta en un paquete de Python.
+# Permite importar directamente la función emotion_detector desde el paquete.
 
-Ejemplo de uso:
-    from github_final_project import emotion_detector
-"""
-
-# Importar la función principal desde el módulo emotion_detection
 from .emotion_detection import emotion_detector
 
-# Definir qué elementos estarán disponibles al importar el paquete
-__all__ = ["emotion_detector"]
+# Con esta línea, puedes usar:
+# >>> from oaqjp_final_project_emb_ai import emotion_detector
+# Esto facilita la importación y uso del módulo en otras partes de la aplicación.
