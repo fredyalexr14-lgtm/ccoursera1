@@ -1,23 +1,15 @@
-#!/bin/bash
-# Script para calcular el interés simple
+# github-final-project
 
-# Solicitar datos al usuario
-read -p "Ingrese el capital (P): " P
-read -p "Ingrese la tasa de interés anual (R): " R
-read -p "Ingrese el tiempo en años (T): " T
+## 📌 Descripción
+Este proyecto es parte de la práctica final de GitHub.  
+Incluye un archivo `README.md` con los detalles básicos del repositorio y su propósito.
 
-# Validar entradas
-if [[ -z "$P" || -z "$R" || -z "$T" ]]; then
-  echo "Error: Todos los campos son obligatorios."
-  exit 1
-fi
+## 🛠️ Tecnologías utilizadas
+- [Git](https://git-scm.com/) para control de versiones
+- [GitHub](https://github.com/) para alojamiento del repositorio
+- Markdown (`.md`) para documentación
 
-# Calcular interés simple
-SI=$(echo "$P * $R * $T / 100" | bc -l)
-
-# Calcular monto total
-A=$(echo "$P + $SI" | bc -l)
-
-# Mostrar resultados
-echo "Interés Simple: $SI"
-echo "Monto Total: $A"
+## 🚀 Uso
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/<tu-usuario>/github-final-project.git
