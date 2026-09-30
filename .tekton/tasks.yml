@@ -25,4 +25,3 @@ spec:
         pip install nose
         echo "🚀 Ejecutando pruebas unitarias con nose..."
         nosetests
-
