@@ -1,24 +1,13 @@
-
-# User Story Example
-
 ## Title
 Moderación de comentarios en TikTok Live
 
-## As a
-Streamer en TikTok Live
-
-## I want
-Configurar filtros automáticos y moderadores en mis transmisiones
-
-## So that
-Puedo mantener el chat limpio y seguro, evitando spam y comentarios ofensivos
+## Notes
+- Se requiere integración con TikTok Studio y OBS.  
+- Los moderadores deben tener permisos configurados en la plataforma.  
+- Probar en transmisiones de prueba antes de eventos grandes.
 
 ## Acceptance Criteria
-- Los filtros bloquean automáticamente palabras prohibidas
-- Los moderadores reciben notificaciones cuando hay comentarios sospechosos
-- El sistema permite aprobar o rechazar mensajes en tiempo real
-- Los espectadores ven un chat fluido sin interrupciones
+- El sistema bloquea automáticamente al menos 10 palabras prohibidas configuradas.  
+- Los moderadores reciben una notificación en menos de 5 segundos tras un comentario sospechoso.  
+- Los espectadores nunca ven mensajes bloqueados en el chat.
 
-## Notes
-Esta funcionalidad se integra con TikTok Studio y OBS.  
-Se recomienda probar con transmisiones de prueba antes de usar en eventos grandes.
