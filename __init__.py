@@ -1,10 +1,23 @@
+from flask import Flask
+from flask_talisman import Talisman
 
-# __init__.py
-# Este archivo convierte la carpeta en un paquete de Python.
-# Permite importar directamente la función emotion_detector desde el paquete.
+def create_app():
+    app = Flask(__name__)
 
-from .emotion_detection import emotion_detector
-
-# Con esta línea, puedes usar:
-# >>> from oaqjp_final_project_emb_ai import emotion_detector
-# Esto facilita la importación y uso del módulo en otras partes de la aplicación.
+    # Configuración de Talisman
+    talisman = Talisman(
+        app,
+        content_security_policy={
+            'default-src': [
+                "'self'"
+            ],
+            'style-src': [
+                "'self'", 'https://fonts.googleapis.com'
+            ],
+            'font-src': [
+                "'self'", 'https://fonts.gstatic.com'
+            ]
+        },
+        force_https=True,          # Obliga HTTPS
+        strict_transport_security=True,  # HSTS
+        session
