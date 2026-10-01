@@ -1,24 +1,25 @@
-
-# Usa una imagen base oficial de Python
+# Imagen base oficial de Python
 FROM python:3.10-slim
 
-# Establece el directorio de trabajo
+# Establecer directorio de trabajo
 WORKDIR /app
 
-# Copia los archivos del proyecto
+# Copiar archivo de dependencias
 COPY requirements.txt .
+
+# Instalar dependencias
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Copiar todos los archivos de la aplicación
 COPY . .
 
-# Expone el puerto de la aplicación
+# Crear usuario no root para mayor seguridad
+RUN useradd -m appuser
+USER appuser
+
+# Exponer el puerto de la aplicación
 EXPOSE 8080
 
 # Comando de inicio
 CMD ["python", "app.py"]
-
-
-git add Dockerfile
-git commit -m "Add Dockerfile for image build"
-git push origin main
 
