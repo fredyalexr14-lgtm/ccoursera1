@@ -1,1 +1,30 @@
 
+# cURL command
+curl -X POST http://localhost:8080/accounts \
+  -H "Content-Type: application/json" \
+  -d '{
+    "id": "12345",
+    "name": "Test Account",
+    "email": "test@example.com"
+  }'
+
+# Output (response)
+{
+  "id": "12345",
+  "name": "Test Account",
+  "email": "test@example.com",
+  "status": "created"
+}
+
+
+git add rest-create-done
+
+
+
+git commit -m "Task 13: Added rest-create-done with cURL CREATE command and output"
+
+
+
+git push origin main
+
+
